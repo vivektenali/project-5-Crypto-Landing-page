@@ -1,0 +1,135 @@
+*{
+    outline: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+body{
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+
+.navbar{
+    display: flex;
+    background-color: black;
+   
+}
+
+
+img[src="./assets/white-logo.png"]{
+
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    left: 80px;
+    top: 28px;
+}
+
+.list  {
+    color: aliceblue;
+    display: flex;
+    padding: 40px 40px;
+    margin-left: 80px;
+ 
+}
+
+.list-item{
+    padding: 0px 20px;
+    list-style-type: none;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.line{
+   
+/*    
+        width: 80px; 
+        height: 80%;
+   border-bottom: 1px solid white; 
+    vertical-align: bottom; */
+
+    border-left: 2px solid white;
+  height: 80px;
+  position: relative;
+  left: 120px;
+  top: 9px;
+  
+}
+
+
+
+.button-small{
+    background-color: #9918A0;
+    height: 40px;
+    width: 150px;
+    color: aliceblue;
+    font-size: 14px;
+    border-radius: 10px;
+    position: absolute;
+    right: 85px;
+    top: 30px;
+}
+
+.hero{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 200px 380px;
+    
+    color: azure;
+
+}
+
+.hero-heading{
+font-size: 65px;
+margin-left: 150px;
+}
+
+.hero-description{
+    font-size: 28px;
+margin-left: 150px;
+margin-top: 30px;
+
+}
+
+
+.button-large{
+    height: 50px;
+    width: 280px;
+    margin-top: 30px;
+    margin-left: 250px;
+    border-radius: 8px;
+    background-color: #9918A0;
+    color: aliceblue;
+    font-size: 18px;
+    border: 0;
+    
+}
+
+.button-large:hover{
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.button-small:hover{
+    background-color: white;
+    color: black; 
+   cursor: pointer;
+}
+
+.list-item:hover{
+     background-color: white;
+    color: black; 
+   cursor: pointer;
+   border-radius: 8px;
+
+}
